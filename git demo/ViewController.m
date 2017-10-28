@@ -22,6 +22,11 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
+    int a=10;
+    int b=5;
+    self.sum=a+b;
+    NSLog(@"sum is%i",self.sum);
     // Dispose of any resources that can be recreated.
 }
 
