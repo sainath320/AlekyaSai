@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 @property int sum;
+@property int sai;
 
 
 @end
